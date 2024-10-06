@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <a name="readme-top"></a>
 
 <br />
@@ -90,4 +91,7 @@
 
 ![image](https://github.com/gracienewd/openharmony-App-YunmoAi/blob/master/doc/images/app_images.jpg)
 
+=======
+git配置测试
+>>>>>>> ddb600c (修改了readme文件的描述)
 
