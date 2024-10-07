@@ -38,7 +38,7 @@ struct Index {
           }.alignItems(HorizontalAlign.Start).height('100%')
         }
         .tabBar(
-          this.TabBuilder("首页", 0, $r('app.media.tab_home_sel'), $r('app.media.tab_home_unsel'))
+          this.TabBuilder("主页", 0, $r('app.media.tab_home_sel'), $r('app.media.tab_home_unsel'))
         )
 
         TabContent() {
@@ -47,29 +47,24 @@ struct Index {
           }.alignItems(HorizontalAlign.Start).height('100%')
         }
         .tabBar(
-          this.TabBuilder("对话", 1, $r('app.media.tab_chat_sel'), $r('app.media.tab_chat_unsel'))
+          this.TabBuilder("设备控制", 1, $r('app.media.tab_chat_sel'), $r('app.media.tab_chat_unsel'))
         )
 
         TabContent() {
           Text('发现的内容').fontSize(30)
         }
         .tabBar(
-          this.TabBuilder("角色", 2, $r('app.media.tab_trasure_sel'), $r('app.media.tab_trasure_unsel'))
+          this.TabBuilder("智慧场景", 2, $r('app.media.tab_trasure_sel'), $r('app.media.tab_trasure_unsel'))
         )
 
         TabContent() {
           Text('我的内容').fontSize(30)
         }
         .tabBar(
-          this.TabBuilder("AI创作", 3, $r('app.media.tab_creator_sel'), $r('app.media.tab_creator_unsel'))
+          this.TabBuilder("更多", 3, $r('app.media.tab_creator_sel'), $r('app.media.tab_creator_unsel'))
         )
 
-        TabContent() {
-          Text('我的内容').fontSize(30)
-        }
-        .tabBar(
-          this.TabBuilder("我的", 4, $r('app.media.tab_mine_sel'), $r('app.media.tab_mine_unsel'))
-        )
+
       }
       .onChange((index) => {
         this.currentIndex = index
