@@ -1,5 +1,6 @@
+  //  实际上的初始加载页面.在加载完后它会重定向到应用的主页面（pages/Index），这也是典型的闪屏页行为。
 import { router } from '@kit.ArkUI';
-
+ // 一方面是给程序加载时间,另一方面是还可以设置开屏的广告
 @Entry
 @Component
 struct SplashPage {
