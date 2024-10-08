@@ -50,7 +50,7 @@ export struct HomeComponent {
           // 改用 Router.push() 实现页面跳转
           router.pushUrl({ url: 'pages/chat/aiCHAT' });
         })
-        .width(40)
+        .width('auto')
         .height(40)
         .backgroundImage('url(/common/dialog_logo.png)')
     }
