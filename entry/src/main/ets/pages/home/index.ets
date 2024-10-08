@@ -48,7 +48,7 @@ export struct HomeComponent {
       Button('AI 聊天')
         .onClick(() => {
           // 改用 Router.push() 实现页面跳转
-          router.pushUrl({ url: 'pages/chat/index' });
+          router.pushUrl({ url: 'pages/chat/aiCHAT' });
         })
         .width(40)
         .height(40)

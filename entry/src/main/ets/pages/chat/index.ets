@@ -1,6 +1,6 @@
 import AppColors from '../../common/AppColors'
 import { ChatPlaceHolder } from './ChatPlaceHolder'
-
+@Entry
 @Component
 export struct ChatComponent {
 
